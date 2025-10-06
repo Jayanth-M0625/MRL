@@ -6119,6 +6119,18 @@
 		(uuid ab44b03d-8c7c-4c48-b5cd-7a81827378c5)
 	)
 	(rectangle
+		(start 81.28 175.26)
+		(end 127 187.96)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid bb317b32-2c2a-47a2-9a2c-00bbb7813504)
+	)
+	(rectangle
 		(start 80.01 41.91)
 		(end 111.76 67.31)
 		(stroke
@@ -6286,6 +6298,16 @@
 		)
 		(uuid "b5467a6b-9c1a-4feb-928e-f51b9cfb7813")
 	)
+	(text "Power input"
+		(exclude_from_sim no)
+		(at 103.632 189.992 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "be14ac69-252e-46fc-a143-d6a0be7646ab")
+	)
 	(text "CAN3"
 		(exclude_from_sim no)
 		(at 59.436 35.306 0)
@@ -6325,18 +6347,6 @@
 			)
 		)
 		(uuid "ee047a6e-5ac7-4dc4-95f9-b6d1f5150035")
-	)
-	(text "Need to choose specific crystals (everywhere) -caps will change"
-		(exclude_from_sim no)
-		(at 101.6 168.656 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-		)
-		(uuid "efb4415d-3ee7-4ed3-a0fa-61bde3afef19")
 	)
 	(junction
 		(at 106.68 148.59)
@@ -10421,7 +10431,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 269.24 154.94 90)
+		(at 96.52 185.42 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10430,7 +10440,7 @@
 		(fields_autoplaced yes)
 		(uuid "11d250e9-b4c4-48f6-a42d-43d4f960b7ae")
 		(property "Reference" "#PWR098"
-			(at 275.59 154.94 0)
+			(at 102.87 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10439,7 +10449,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 273.05 154.9399 90)
+			(at 100.33 185.4199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10448,7 +10458,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 269.24 154.94 0)
+			(at 96.52 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10457,7 +10467,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 269.24 154.94 0)
+			(at 96.52 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10466,7 +10476,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 269.24 154.94 0)
+			(at 96.52 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14128,7 +14138,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 269.24 152.4 270)
+		(at 96.52 182.88 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14137,7 +14147,7 @@
 		(fields_autoplaced yes)
 		(uuid "94da84df-9d4e-4460-b94a-cdb726e10531")
 		(property "Reference" "#PWR097"
-			(at 265.43 152.4 0)
+			(at 92.71 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14146,7 +14156,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 273.05 152.3999 90)
+			(at 100.33 182.8799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14155,7 +14165,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 269.24 152.4 0)
+			(at 96.52 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14164,7 +14174,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 269.24 152.4 0)
+			(at 96.52 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14173,7 +14183,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 269.24 152.4 0)
+			(at 96.52 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15136,7 +15146,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
-		(at 264.16 152.4 0)
+		(at 91.44 182.88 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15145,7 +15155,7 @@
 		(fields_autoplaced yes)
 		(uuid "a1d5bbd4-ea2f-44c8-81f7-f92855b78afa")
 		(property "Reference" "J13"
-			(at 264.795 147.32 0)
+			(at 92.075 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15153,7 +15163,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02_Pin"
-			(at 264.795 149.86 0)
+			(at 92.075 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15161,7 +15171,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
-			(at 264.16 152.4 0)
+			(at 91.44 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15170,7 +15180,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 264.16 152.4 0)
+			(at 91.44 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15179,7 +15189,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 264.16 152.4 0)
+			(at 91.44 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15299,7 +15309,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:Fiducial")
-		(at 68.58 190.5 0)
+		(at 68.58 161.29 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -15308,7 +15318,7 @@
 		(fields_autoplaced yes)
 		(uuid "a54b4eea-2322-4d8e-bf68-2179ac3b26b2")
 		(property "Reference" "FID3"
-			(at 71.12 189.2299 0)
+			(at 71.12 160.0199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15317,7 +15327,7 @@
 			)
 		)
 		(property "Value" "Fiducial"
-			(at 71.12 191.7699 0)
+			(at 71.12 162.5599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15326,7 +15336,7 @@
 			)
 		)
 		(property "Footprint" "Fiducial:Fiducial_0.5mm_Mask1.5mm"
-			(at 68.58 190.5 0)
+			(at 68.58 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15335,7 +15345,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 68.58 190.5 0)
+			(at 68.58 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15344,7 +15354,7 @@
 			)
 		)
 		(property "Description" "Fiducial Marker"
-			(at 68.58 190.5 0)
+			(at 68.58 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16674,7 +16684,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:Fiducial")
-		(at 68.58 184.15 0)
+		(at 68.58 154.94 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -16683,7 +16693,7 @@
 		(fields_autoplaced yes)
 		(uuid "c37ba918-6d9b-4772-baeb-6392b9abf0b7")
 		(property "Reference" "FID2"
-			(at 71.12 182.8799 0)
+			(at 71.12 153.6699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16692,7 +16702,7 @@
 			)
 		)
 		(property "Value" "Fiducial"
-			(at 71.12 185.4199 0)
+			(at 71.12 156.2099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16701,7 +16711,7 @@
 			)
 		)
 		(property "Footprint" "Fiducial:Fiducial_0.5mm_Mask1.5mm"
-			(at 68.58 184.15 0)
+			(at 68.58 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16710,7 +16720,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 68.58 184.15 0)
+			(at 68.58 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16719,7 +16729,7 @@
 			)
 		)
 		(property "Description" "Fiducial Marker"
-			(at 68.58 184.15 0)
+			(at 68.58 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17391,7 +17401,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:Fiducial")
-		(at 68.58 177.8 0)
+		(at 68.58 148.59 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -17400,7 +17410,7 @@
 		(fields_autoplaced yes)
 		(uuid "e2e4ca4b-94dd-48c9-87cb-7d904e3b1aa5")
 		(property "Reference" "FID1"
-			(at 71.12 176.5299 0)
+			(at 71.12 147.3199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17409,7 +17419,7 @@
 			)
 		)
 		(property "Value" "Fiducial"
-			(at 71.12 179.0699 0)
+			(at 71.12 149.8599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17418,7 +17428,7 @@
 			)
 		)
 		(property "Footprint" "Fiducial:Fiducial_0.5mm_Mask1.5mm"
-			(at 68.58 177.8 0)
+			(at 68.58 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17427,7 +17437,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 68.58 177.8 0)
+			(at 68.58 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17436,7 +17446,7 @@
 			)
 		)
 		(property "Description" "Fiducial Marker"
-			(at 68.58 177.8 0)
+			(at 68.58 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
