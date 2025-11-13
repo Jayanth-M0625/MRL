@@ -1,0 +1,114 @@
+(footprint "R0402"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Description: Standard 0402 Package for Resistors")
+	(property "Reference" "REF**"
+		(at -1.1 -1.1 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "f58b5719-742f-43e8-bee1-e1cce5c61ff1")
+		(effects
+			(font
+				(size 0.85344 0.85344)
+				(thickness 0.16256)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Value" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "6396ca7b-0bbd-4a00-8fc6-87b6b6484aa3")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "41608d08-2138-46ca-9726-a5141c37845f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "21dbcc83-5c67-41f4-9b8f-58768c1aa828")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_line
+		(start -1.1 -0.55)
+		(end -1.1 0.55)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b01ec59b-61be-49a1-a09d-b7f828252a0f")
+	)
+	(fp_line
+		(start -1.1 0.55)
+		(end 1.1 0.55)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "fbbebb3d-2977-4ce1-beac-3af8a5d21d3c")
+	)
+	(fp_line
+		(start 1.1 -0.55)
+		(end -1.1 -0.55)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e29959c6-c77f-45e7-a9cf-ba4b8f694e3c")
+	)
+	(fp_line
+		(start 1.1 0.55)
+		(end 1.1 -0.55)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "bb6542db-44db-4a45-b74b-1067ba8f22d0")
+	)
+	(pad "P$1" smd rect
+		(at -0.55 0 180)
+		(size 0.5 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.0508)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 0)
+		(uuid "edde4195-9e26-4e34-ae6f-6a305216e156")
+	)
+	(pad "P$2" smd rect
+		(at 0.55 0 180)
+		(size 0.5 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.0508)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 0)
+		(uuid "f127dad6-1674-4c08-b697-7726e0c26588")
+	)
+	(embedded_fonts no)
+)

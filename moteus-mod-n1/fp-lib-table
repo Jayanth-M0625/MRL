@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "moteus_n1 (1)")(type "KiCad")(uri "$(KIPRJMOD)/moteus-mod-n1.pretty")(options "")(descr ""))
+)
